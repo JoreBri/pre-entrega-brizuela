@@ -6,12 +6,13 @@ import logo from '../../assets/logo.jpg'; // Importa la imagen
 export const Header = () => {
   return (
     <header className='header'> 
-    <h1>¡PET PARADISE!</h1>
+    <div className='imgDiv'>
+    <a href="#"><img className='imgLogo' src={logo} alt="Ejemplo" /></a>
+    <a className='logoLink' href="#"><h1>¡PET PARADISE!</h1></a>
+      </div>
       <NavBar />
       <CarritoWidget/>
-      <div className='imgDiv'>
-      <img className='imgLogo' src={logo} alt="Ejemplo"/>
-      </div>
+      
     </header>
     
   )
