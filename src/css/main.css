@@ -56,14 +56,6 @@
     background-color: rgba(251, 177, 182, 0.623);
     border-radius: 5px;
 }
-.productsContainer {
-    background-color: rgba(218, 98, 125, 1);
-    min-height: 30vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgba(69, 9, 32, 1);
-}
 .carrito{
     display: flex;
     flex-direction: row;
@@ -87,4 +79,22 @@ align-items: center;
     padding: 15px 30px; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
     font-size: 15px;     /* Tamaño de la fuente */
     cursor: pointer;    /* Cursor en forma de mano al pasar por encima */
+}
+
+.itemListContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: rgba(69, 9, 32, 1);
+}
+
+.listaProductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.producto {
+    background-color: rgba(218, 98, 125, 1);
+    border-radius: .5rem;
+    padding: 1rem;
 }
