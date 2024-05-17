@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "Collar de Cuero",
+        "precio": 15.99,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Collar de cuero resistente para perros, ajustable y cómodo."
+    },
+    {
+        "nombre": "Juguete de Peluche",
+        "precio": 8.50,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Juguete de peluche suave en forma de hueso, ideal para morder y jugar."
+    },
+    {
+        "nombre": "Cama para Gatos",
+        "precio": 25.00,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Cama acogedora y suave para gatos, disponible en varios colores."
+    },
+    {
+        "nombre": "Comida para Perros Premium",
+        "precio": 40.00,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Alimento balanceado para perros de todas las edades y tamaños."
+    },
+    {
+        "nombre": "Rascador para Gatos",
+        "precio": 30.00,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Rascador de sisal para gatos, con plataforma elevada para descansar."
+    },
+    {
+        "nombre": "Cepillo para Perros",
+        "precio": 12.00,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Cepillo de cerdas suaves para mantener el pelaje de tu perro limpio y brillante."
+    },
+    {
+        "nombre": "Pecera de Vidrio",
+        "precio": 50.00,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Pecera de vidrio de 20 litros, perfecta para peces pequeños."
+    },
+    {
+        "nombre": "Juguete de Cuerda",
+        "precio": 10.00,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Juguete de cuerda resistente para perros, ideal para juegos de tira y afloja."
+    },
+    {
+        "nombre": "Transportadora para Mascotas",
+        "precio": 35.00,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Transportadora cómoda y segura para llevar a tu mascota de viaje."
+    },
+    {
+        "nombre": "Comedero Automático",
+        "precio": 45.00,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Comedero automático para mascotas, con temporizador programable."
+    }
+    ]

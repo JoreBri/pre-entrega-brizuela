@@ -14,14 +14,14 @@ export const ItemCounts = ({stock, initial, onAdd}) => {
     }
 
     return (
-    <div className='Counter'>
+    <div className='counter'>
         <div className='controles'>
-            <button className='button' onClick={decrement}> ➖ </button>
+            <button className='botonProductos' onClick={decrement}> ➖ </button>
             <h4 className='numero'> {quantity} </h4>
-            <button className='button' onClick={increment}>➕ </button>
+            <button className='botonProductos' onClick={increment}>➕ </button>
         </div>
         <div>
-            <button className='button' onClick={() => onAdd(quantity)} disabled={!stock} ></button>
+            <button className='botonProductos' onClick={() => onAdd(quantity)} disabled={!stock} >Agregar al carrito</button>
         </div>
     </div>
     )

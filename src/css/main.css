@@ -68,3 +68,23 @@
     display: flex;
     flex-direction: row;
 }
+
+.counter{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.controles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botonProductos{
+    background-color: rgba(251, 177, 182, 0.623);
+    border-radius: 5px;
+    width: 200px;       /* Anchura del botón */
+    height: 50px;       /* Altura del botón */
+    padding: 15px 30px; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    font-size: 15px;     /* Tamaño de la fuente */
+    cursor: pointer;    /* Cursor en forma de mano al pasar por encima */
+}
