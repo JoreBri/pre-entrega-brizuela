@@ -1,62 +1,63 @@
 [
     {
-        "nombre": "Collar de Cuero",
-        "precio": 15900,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Collar de cuero resistente para perros, ajustable y cómodo."
+        "nombre": "Comida para Perros",
+        "precio": 1400,
+        "imagen": "../src/img/cmidaparaperro.jpg",
+        "descripcion": "Alimento balanceado para perros de todas las edades y tamaños."
+        
     },
     {
-        "nombre": "Juguete de Peluche",
-        "precio": 8500,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Juguete de peluche suave en forma de hueso, ideal para morder y jugar."
+        "nombre": "Bolso para Mascotas",
+        "precio": 35000,
+        "imagen": "../src/img/bolsoChico.jpg",
+        "descripcion": "Transportadora cómoda y segura para llevar a tu mascota de viaje."
     },
     {
         "nombre": "Cama para Gatos",
         "precio": 25000,
-        "imagen": "https://placeholder.pics/svg/150",
+        "imagen": "../src/img/camaparagato.jpg",
         "descripcion": "Cama acogedora y suave para gatos, disponible en varios colores."
     },
     {
-        "nombre": "Comida para Perros Premium",
-        "precio": 1400,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Alimento balanceado para perros de todas las edades y tamaños."
+        "nombre": "Collar para Gato",
+        "precio": 15900,
+        "imagen": "../src/img/collares.jpg",
+        "descripcion": "Collar para gato, ajustable y cómodo."        
     },
     {
         "nombre": "Rascador para Gatos",
         "precio": 3000,
-        "imagen": "https://placeholder.pics/svg/150",
+        "imagen": "../src/img/Cepilloparamascota.jpg",
         "descripcion": "Rascador de sisal para gatos, con plataforma elevada para descansar."
     },
     {
         "nombre": "Cepillo para Perros",
         "precio": 2200,
-        "imagen": "https://placeholder.pics/svg/150",
+        "imagen": "../src/img/Cepilloparamascota.jpg",
         "descripcion": "Cepillo de cerdas suaves para mantener el pelaje de tu perro limpio y brillante."
     },
     {
-        "nombre": "Pecera de Vidrio",
+        "nombre": "Collar para Perro",
         "precio": 50000,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Pecera de vidrio de 20 litros, perfecta para peces pequeños."
+        "imagen": "../src/img/collarperro.jpg",
+        "descripcion": "Collar para Perro, ajustable y cómodo."
     },
     {
         "nombre": "Juguete de Cuerda",
         "precio": 3000,
-        "imagen": "https://placeholder.pics/svg/150",
+        "imagen": "../src/img/jugetes.jpg",
         "descripcion": "Juguete de cuerda resistente para perros, ideal para juegos de tira y afloja."
     },
     {
-        "nombre": "Transportadora para Mascotas",
-        "precio": 35000,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Transportadora cómoda y segura para llevar a tu mascota de viaje."
+        "nombre": "Juguete de Peluche",
+        "precio": 8500,
+        "imagen": "../src/img/jugetes.jpg",
+        "descripcion": "Juguete de peluche suave en forma de hueso, ideal para morder y jugar."
     },
     {
-        "nombre": "Comedero Automático",
+        "nombre": "Comedero",
         "precio": 45000,
-        "imagen": "https://placeholder.pics/svg/150",
-        "descripcion": "Comedero automático para mascotas, con temporizador programable."
+        "imagen": "../src/img/platos.jpg",
+        "descripcion": "Plato para comida, de varios colores."
     }
     ]
