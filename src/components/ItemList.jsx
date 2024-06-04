@@ -1,6 +1,5 @@
 import React from 'react'
 import { Item } from './Item'
-import { ItemCounts } from './ItemCounts'
 
 export const ItemList = ( {productos} ) => {
     return (
@@ -11,8 +10,9 @@ export const ItemList = ( {productos} ) => {
                 return <Item key = { producto.id} producto={producto} />
             
             })
-            : <p>No hay productos</p>
+            : <p>Cargando productos...</p>
         }
+
         </div>
     )
 }
