@@ -2,12 +2,15 @@ import React, { useEffect, useState } from 'react';
 import data from "../data/productos.json";
 import categories from "../data/categorias.json";
 import { ItemList } from './ItemList';
-import { ItemCounts } from './ItemCounts';
+import { useParams } from 'react-router-dom';
 
 export const ItemListContainer = () => {
-  const [productos, setProductos] = useState([]);
-  const [categoryId, setCategoryId] = useState(null);
 
+  let { categoryId } = useParams();
+  let [productos, setProductos] = useState([]);
+
+  let [titulo, setTitulo] = useState("Productos");
+  
   const pedirProductos = () => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
@@ -17,21 +20,24 @@ export const ItemListContainer = () => {
   }
 
   useEffect(() => {
+    
     pedirProductos()
       .then((res) => {
         if (!categoryId) {
+          setTitulo("Productos");
           setProductos(res);
         } else {
+          setTitulo(categories.find((cat) => cat.id === categoryId).nombre);
           setProductos(res.filter((prod) => prod.categoria.id === categoryId));
         }
-      });
+      })
+      
   }, [categoryId]);
-
+  
   return (
     <div className="itemListContainer">
       <h1>Productos</h1>
       <ItemList productos={productos} />
-      <ItemCounts initial={1} stock={10} onAdd={(quantity) => console.log("Cantidad agregada", quantity)} />
     </div>
   )
 }

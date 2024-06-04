@@ -36,9 +36,9 @@
         "imagen": "../src/img/collares.jpg",
         "descripcion": "Collar para gato, ajustable y cómodo." ,
         "categoria":{
-            "id": "accesorios",
-            "nombre": "Accesorios"
-        }       
+            "id": "collares",
+            "nombre": "Collares"
+        }     
     },
     {
         "nombre": "Rascador para Gatos",
@@ -66,8 +66,8 @@
         "imagen": "../src/img/collarperro.jpg",
         "descripcion": "Collar para Perro, ajustable y cómodo.",
         "categoria":{
-            "id": "accesorios",
-            "nombre": "Accesorios"
+            "id": "collares",
+            "nombre": "Collares"
         }
     },
     {

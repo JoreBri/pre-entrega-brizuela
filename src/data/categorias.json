@@ -4,6 +4,10 @@
         "nombre": "Alimento"
     },
     {
+        "id": "collares",
+        "nombre": "Collares"
+    },
+    {
         "id": "accesorios",
         "nombre": "Accesorios"
     },
